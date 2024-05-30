@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.background {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.myimg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.btn.background {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn.background:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+#cv-template {
+    display: none;
+}
+
+#cv-form {
+    display: block;
+}
+
+#cv-form,
+#cv-template {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
